@@ -23,7 +23,7 @@ public interface Promise<V> extends Future<V> {
     /**
      * Marks this future as a success and notifies all
      * listeners.
-     *
+     *aaaqa
      * If it is success or failed already it will throw an {@link IllegalStateException}.
      */
     Promise<V> setSuccess(V result);
